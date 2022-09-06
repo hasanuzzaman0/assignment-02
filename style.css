@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+
+}
+
+header {
+    background-color: #ffffff;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.headers {
+    background-color: #161616;
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.header-left {
+    height: auto;
+    margin: 0px 0px 0px 70px;
+    width: 70%;
+}
+
+.header-left-1 {
+    color: #ffffff;
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.header-left-2 {
+    color: #dcdcdc;
+    font-size: 12px;
+}
+
+.button {
+    background-color: #dd0000;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+.button i {
+    margin-left: 10px;
+    font-size: 11px;
+}
+
+.header-right img {
+    width: auto;
+    height: 325px;
+}
+
+/*--------------------------------
+ header finished 
+ ---------------------------------*/
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+}
+
+.container-left {
+    background-color: #161616;
+    width: 230px;
+    height: 233px;
+    border-radius: 10px;
+    position: relative;
+}
+
+
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 13px 0px;
+}
+
+.left1 button {
+    width: 180px;
+    height: 45px;
+    margin: 12px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 15px;
+    color: #161616;
+
+}
+
+.left1 button:hover {
+    background-color: #dd0000;
+    color: #dcdcdc;
+}
+
+.container-right {
+    width: 970px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+
+}
+
+.container-right1 {
+    width: 300px;
+    border-radius: 10px;
+    margin: 0px 0px 22px 22px;
+    border: 1px solid #f2f2f2;
+    padding-bottom: 10px;
+}
+
+.container-right1 img {
+    width: 300px;
+
+}
+
+.container-right1 button {
+    padding: 5px 10px 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100px;
+    margin: 10px 0px 0px 20px;
+    border-radius: 5px;
+    border: 1px solid #161616;
+
+}
+
+.container-right1 p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 27px;
+    padding-left: 20px;
+
+}
+
+.fa-regular {
+    margin-left: 20px;
+    color: #606060;
+    font-size: 13px;
+
+}
+
+.clock {
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+.footer {
+    background-color: #161616;
+    color: #ffffff;
+
+}
+
+.footer h1 {
+    text-align: center;
+    font-size: 30px;
+    padding: 70px 0px 10px 0px;
+}
+
+hr {
+    width: 90%;
+    align-items: center;
+    height: 0px;
+    border: 1px solid #2c2c2c;
+
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px 70px 15px;
+}
+
+.contact {
+    padding-left: 40px;
+    font-size: 10px;
+    color: #B9B9;
+}
+
+
+
+/* -------------------------------------- 
+next button page
+--------------------------------*/
+.contain {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.containeres {
+    width: 300px;
+    height: 180px;
+    border: 1px solid #f0f0f0;
+    margin-left: 25px;
+    border-radius: 5px;
+    margin: 0px 0px 22px 22px;
+
+
+}
+
+.container-link {
+    margin-top: 30px;
+
+}
+
+.container-link-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.container-link-1 img {
+    width: 100px;
+    height: 50px;
+}
+
+.container-link-1 h5 {
+    margin: 15px 15px 0px 15px;
+
+}
+
+.container-link-2 h5 {
+    margin: 15px 0px 0px 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.container-link-2 p {
+    font-size: 10px;
+    color: #767676;
+    font-weight: 450;
+    align-items: center;
+    text-align: center;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+
+    .headers {
+        background-color: red;
+
+    }
+
+    .header-left-1 {
+        width: 50%;
+    }
+
+    .header-right {
+        width: 50px;
+    }
+}
