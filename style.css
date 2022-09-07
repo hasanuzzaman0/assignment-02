@@ -260,10 +260,12 @@ next button page
     .headers {
         background-color: red;
 
+
     }
 
     .header-left-1 {
         width: 50%;
+        padding-left: 40px;
     }
 
     .header-right {
