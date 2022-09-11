@@ -3,7 +3,6 @@
 body {
     font-family: 'Poppins', sans-serif;
     position: relative;
-
 }
 
 header {
@@ -51,6 +50,7 @@ header {
     color: #ffffff;
     margin-top: 10px;
     margin-left: 0px;
+    cursor: pointer;
 }
 
 .button1 i {
@@ -71,7 +71,6 @@ main {
     flex-direction: column;
     align-items: center;
     margin-top: 80px;
-
 }
 
 .container {
@@ -86,8 +85,6 @@ main {
     border-radius: 10px;
     position: relative;
 }
-
-
 
 .left1 {
     display: flex;
@@ -105,6 +102,7 @@ button {
     font-weight: 550;
     font-size: 15px;
     color: #161616;
+    cursor: pointer;
 
 }
 
@@ -217,7 +215,6 @@ next button page
 .contain {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-
 }
 
 .containeres {
@@ -227,13 +224,10 @@ next button page
     margin-left: 25px;
     border-radius: 5px;
     margin: 0px 0px 22px 22px;
-
-
 }
 
 .container-link {
     margin-top: 30px;
-
 }
 
 .container-link-1 {
@@ -248,7 +242,6 @@ next button page
 
 .container-link-1 h5 {
     margin: 15px 15px 0px 15px;
-
 }
 
 .container-link-2 h5 {
@@ -267,8 +260,6 @@ next button page
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 688px)and (max-width:992px) {
-
-
     .headers {
         height: 400px;
     }
@@ -329,14 +320,18 @@ next button page
     .contacts {
         display: grid;
         grid-template-columns: repeat(4, 3fr);
+        justify-content: center;
     }
 
     .contact1 {
-        /* margin-left: 150px; */
+        display: flex;
+        width: 100px;
     }
 }
 
-/* -------------------------------------------------------------------------- */
+/* ----------------------- -----------------
+                 mobile phone
+--------------------------------------------------- */
 
 @media only screen and (max-width: 600px) {
 
@@ -352,7 +347,6 @@ next button page
 
     main {
         display: grid;
-        /* grid-template-columns: repeat(1, 1fr); */
         margin-top: 0px;
     }
 
@@ -360,8 +354,6 @@ next button page
         display: grid;
         justify-content: center;
         width: 100%;
-        /* grid-template-columns: repeat(1, 1fr); */
-        /* flex-direction: column; */
     }
 
     .container-left {
